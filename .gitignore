@@ -1,1 +1,88 @@
-.pdf
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jittor/PyTorch
+*.pt
+*.pth
+*.pkl
+*.bin
+*.model
+*.ckpt
+*.checkpoints
+logs/
+tensorboard/
+wandb/
+runs/
+
+# Data
+datasets/
+data/
+*.csv
+*.json
+*.h5
+*.npz
+*.npy
+*.mat
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Training artifacts
+checkpoint_*
+best_model.*
+last_model.*
+saved_models/
+
+# Experimental
+experiments/
+results/
+outputs/
+predictions/
